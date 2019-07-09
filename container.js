@@ -49,4 +49,5 @@ module.exports = {
     changeName: action(stageName),
     setUri: model(commitUri, { key: 'container', initialState }),
     setName: model(commitName, { key: 'container', initialState }),
+    getContainer,
 };
